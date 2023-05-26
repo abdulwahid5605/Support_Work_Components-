@@ -1,0 +1,48 @@
+.carousel-item
+{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height:120vh ;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.864);
+}
+
+.carousel-item-heading
+{
+    font-size: 2.15vmax;
+    /* margin: 40px 0 40px 0; */
+    /* padding: 0 20px 0 20px; */
+    white-space: normal;
+}
+
+.carousel-item-text
+{
+    font-size: 1.15vmax;
+    font-weight: bold;
+    font-style: italic;
+    margin: 40px 0 40px 0;
+    padding: 0 20px 0 20px;
+    white-space: normal;
+}
+.inner-container
+{
+    height: 400px;
+    width: 300px;
+}
+
+.inner-container> h2
+{
+    height: 600px;
+    width: 500px;
+    color: white;
+    position: relative;
+    right: 70px;
+    top: 70px;
+    text-align:justify;
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-top: 30px; */
+    /* padding; */
+}

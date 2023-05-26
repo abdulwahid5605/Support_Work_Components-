@@ -1,0 +1,91 @@
+.carousel
+{
+    overflow: hidden;
+    /* height: 120vh; */
+    /* width: 100%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.inner
+{
+    /* height: 100vh; */
+    /* width: 100vw; */
+    white-space:nowrap;
+    transition: transform 0.3s;
+    
+    /* border: 1px solid black; */
+}
+
+
+
+.carousel-buttons
+{
+    padding: 10px;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.864);
+   
+}
+
+.button-arrow
+{
+    background: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.indicators
+{
+    width: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.indicator-buttons
+{
+    border: none;
+    cursor: pointer;
+    width: 20px;
+}
+
+.indicators > button
+{
+    margin: 5px;
+    background: none;
+}
+
+.indicator-symbols
+{
+    color: black;
+}
+
+.indicator-symbols-active
+{
+    color: white;
+}
+
+.button-arrow
+{
+    position: relative;
+    bottom: 500px;
+    color: white;
+    /* font-size: 30px; */
+}
+
+.button-arrow span
+{
+    font-size: 50px;
+    font-weight: 200;
+
+    
+}
+
+
